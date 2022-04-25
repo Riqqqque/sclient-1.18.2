@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "sclient",
+  "version": "${version}",
+
+  "name": "sclient",
+  "description": "A mod for the Spookie Client",
+  "authors": [
+    "Rique"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/sclient/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.rique.sclient"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
